@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+body {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    line-height: 2em;
+    font-weight: 3;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  font-size: 18px;
+  height: 40px;
+  float: left;
+  width: 100%;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-bar {
+  padding: 0 20px;
+  height: 30px;
+}
+
+.top-left {
+  height: 50px;
+  float: left;
+
+}
+.acronym {
+  margin-left: 20px;
+}
+.top-links {
+  float: right;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header {
+  background-color: rgb(32, 101, 136);
+  padding-top: 10px;
+  color: white;
+  padding-bottom: 80px;
+  background-image: url(images/city-scape.svg);
+
+}
+
+.logo-bar {
+
+}
+
+.npm {
+  height: 50px;
+  margin-left: 20px;
+  float: left;
+}
+.search-bar {
+  width: 75%;
+  float: left;
+}
+
+.search-text {
+  width: 90%;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 2px;
+  padding-left: 8px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid #ffffff40;
+}
+.search-button {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid #ffffff40;
+  padding: 10px 5px;
+  color: #ffffff7d;
+}
+.account {
+  list-style: none;
+  padding-top: 2px;
+  float: right;
+}
+.account li {
+  float: left;
+}
+.account a {
+  text-decoration: none;
+  color: white;
+}
+.bear {
+  height: 20px;
+  padding: 9px;
+}
+
+.build-things {
+  padding: 50px 0 0 0;
+  color: white;
+  width: 400px;
+  margin: 0 auto 0 10%;
+  position: relative;
+}
+.build-things p {
+  line-height: 1.5;
+  width: 550px;
+  padding: 30px 0;
+}
+
+.sign-npm {
+  background-color: rgb(240, 146, 51);
+  border-radius: 20px;
+  border: 0px;
+  padding: 10px 25px;
+  color: white;
+}
+
+
+
+#collaboration {
+  background-color: rgb(39, 53, 71);
+}
+
+.collab {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(39, 53, 71);
+
+}
+
+.collab-img {
+  width: 40%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  float: left;
+
+
+}
+
+.orgs-all {
+  width: 55%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 100px;
+  color: white;
+
+}
+
+.orgs-all ul {
+  margin-top: 50px;
+}
+
+#collaboration h2 {
+  width: 500px;
+}
+
+.list-orgs {
+  margin: 20px 0 0 40px;
+}
+
+.sign-orgs {
+  background-color: rgb(203, 56, 55);
+  border-radius: 20px;
+  border: 0px;
+  padding: 10px 25px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.learn-orgs {
+  text-decoration: none;
+  color: white;
+}
+
+#section-3 {
+  position: relative;
+  height: 500px;
+  color: white;
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+}
+
+.what-is {
+  position: absolute;
+  bottom: 200px;
+  left: 165px;
+  width: 350px;
+  line-height: 1.5;
+
+}
+
+.what-is p{
+  padding-top: 30px;
+}
+
+.install-npm {
+  background-color: rgb(49, 68, 88);
+  border-radius: 20px;
+  border: 0px;
+  padding: 10px 25px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#section-4 {
+  text-align: center;
+  padding: 50px 0;
+  background-color: white;
+  display: inline-block;
+  color: rgb(83, 88, 98)
+}
+
+.s4-header {
+
+}
+
+.col {
+  float: left;
+  padding: 0 1.6%;
+}
+
+.col-3 {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.all-3 {
+  padding: 50px 10%;
+  line-height: 1.5;
+}
+
+.all-3 p{
+  padding-top: 10px;
+  font-size: 14px;
+}
+.red-text {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+.find {
+
+}
+
+.discover {
+
+}
+
+.build {
+
+}
